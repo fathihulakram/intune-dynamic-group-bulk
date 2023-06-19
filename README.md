@@ -1,1 +1,1 @@
-# intune-dynamic-group-bulk
+# Bulk create for dynamic group in Microsoft Intune
