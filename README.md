@@ -1,11 +1,12 @@
 # Bulk create for dynamic group in Microsoft Intune
+This PowerShell script is created for Ministry of Education (MOE) of Malaysia in conjucntion with Microsoft M365A1 provisioning project. This script greatly reduce our time to create multiple dynamic device group in Microsoft Intune instead of creating them manually in the Intune portal. The value of the dynamic group is determined by CSV file that would be created before executing the script.
 
 ## 1. Pre-requisite 
-- PowerShell 7.3.4 or later
+- [PowerShell 7.3.4](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 "Visit PowerShell Website") or later
 - Microsoft Graph
 
 ## 2. Installation
-1. Install [PowerShell 7.3.4]([https://www.example.com](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3) "Visit PowerShell Website") or later
+1. Install [PowerShell 7.3.4](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 "Visit PowerShell Website") or later
 2. Install Microsoft Graph module using PowerShell
 ```
 Install-Module -Name Microsoft.Graph
